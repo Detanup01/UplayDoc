@@ -6,10 +6,9 @@ Uplay API Documentation?
 ### Headers
 ```
 Ubi-AppId: b8fde481-327d-4031-85ce-7c10a202a700
-GenomeId: fbd6791c-a6c6-4206-a75e-77234080b87b
 Ubi-RequestedPlatformType: uplay
 Content-Type: application/json
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36
+User-Agent: UbiServices_SDK_2019.Release.17_PC64_ansi_static
 Authorization: Basic <Base64 encoded Email:Password>
 ```
 "Email:Password" = example@example.com:example123\
@@ -24,7 +23,7 @@ Json
 {
     "platformType": "uplay",
     "ticket": "ewog...", <Ubiv1 Token>
-    "twoFactorAuthenticationTicket": null,
+    "twoFactorAuthenticationTicket": <Ubi2fav1 token>
     "profileId": <Private>,
     "userId": <Private>,
     "nameOnPlatform": <Private>,
